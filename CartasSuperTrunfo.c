@@ -8,7 +8,7 @@ int main() {
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
   
-  // Variáveis da Carta 1
+  // Variáveis da Carta 1:
 
   int populacao01;
   int pontos_turisticos01;
@@ -20,7 +20,7 @@ int main() {
   float densidade_populacional01;
   float pib_per_capita01;
   
-  // Carta 02
+  // Variáveis da Carta 02:
 
   int populacao02;
   int pontos_turisticos02;
@@ -33,7 +33,7 @@ int main() {
   float pib_per_capita02;
   
 
-  // Área para entrada de dados
+  // Área para entrada de dados:
   
   // Carta 1
 
@@ -93,7 +93,7 @@ int main() {
   densidade_populacional02 = (populacao02 / area02);
   pib_per_capita02 = (pib02 / populacao02);
 
-  // Área para exibição dos dados da cidade
+  // Área para exibição dos dados da cidade:
 
   printf("\n* * * Carta 1 * * *\n");
   printf("Estado: %c\n", estado01);
